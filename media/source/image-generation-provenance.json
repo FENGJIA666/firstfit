@@ -1,0 +1,64 @@
+{
+  "generated_with": "built-in image_gen",
+  "date": "2026-10-24",
+  "purpose": "Original source inputs, not YouCam try-on results.",
+  "model": "Entirely fictional 24-year-old adult, not a user or identifiable person.",
+  "prompts": [
+    {
+      "key": "modelFinal",
+      "prompt": "Use case: precise-object-edit. Edit this fictional adult model reference photograph: replace only his white T-shirt with a warm white / soft ivory long-sleeved Oxford button-down shirt, collar buttons visible, top collar button open, sleeves full length buttoned at wrist, neatly tucked in. Adjust his trousers to a midnight dark blue-gray tailored straight-leg trouser with natural subtle crease. Keep the exact same fictional adult person, face, body, front-facing pose, natural smile, full-body framing, warm white seamless studio lighting, and chalk white simple low-top sneakers. All head, hands, and shoes fully visible. This is a synthetic baseline model input for virtual try-on, not a try-on result. No outerwear, no accessories, no text, no logos, no watermark."
+    },
+    {
+      "key": "blazer",
+      "prompt": "Use case: product-mockup. Asset type: single garment product catalog photograph and source input for clothes virtual try-on. Create one original soft olive green unstructured tailored men's blazer, a versatile internship wardrobe jacket in muted sage/olive fabric, single-breasted with two dark olive buttons, classic notch lapel, subtle patch pockets and realistic fine woven cotton-linen texture, straight front view of blazer. The jacket is worn by an invisible mannequin, natural three-dimensional shoulders and sleeves, jacket open enough to show inner lining yet front silhouette clear. No person, no shirt, no trousers, no shoes, no hanger, no other objects. Entire jacket isolated and centered, sleeves fully visible, generous small margins. Warm off-white seamless studio background, soft professional ecommerce lighting with subtle grounded shadow, premium realistic editorial product photography. Portrait 4:5 composition. No text, logo, tag, brand, watermark."
+    },
+    {
+      "key": "loafer",
+      "prompt": "Use case: product-mockup. Asset type: original footwear product catalog photograph. Create a pair of elegant men's espresso dark brown leather penny loafers, contemporary understated style, supple smooth leather with subtle genuine grain, medium dark brown flat soles, classic stitched apron toes and penny straps, no metal decoration. Both shoes complete, one turned slightly three-quarter and the other alongside, showing recognizable matching pair. Warm off-white seamless studio backdrop matching refined internship wardrobe editorial, soft high-end ecommerce light and gentle natural shadows. Square composition, product fills 75 percent of frame, all shoe tips and heels visible. No people, legs, socks, trousers, boxes or props. No logos, brands, labels, text or watermark. Realistic premium photography."
+    },
+    {
+      "key": "oxford",
+      "prompt": "Use case: product-mockup. Original e-commerce catalog photograph of one warm white / soft ivory men's Oxford button-down long-sleeved shirt, crisp button-down collar, top button open, plain buttons, sleeves to the wrists, subtle soft cotton texture. Single complete shirt, perfectly front-facing invisible mannequin product shape, entire collar, sleeves, cuffs and hem visible. No person or other clothes. Warm off-white seamless studio background, soft refined studio lighting, subtle natural shadow. Portrait 4:5 centered generous small margins. No text, brand, labels, logo, watermark."
+    },
+    {
+      "key": "trousers",
+      "prompt": "Use case: product-mockup. Original e-commerce catalog photograph of one pair of midnight dark blue-gray men's tailored straight-leg trousers, elegant everyday wool blend texture, subtle front crease, plain waistband with button and belt loops, no belt. Single complete pair of trousers with front facing camera, entire waistband, both legs and hems visible, neatly arranged with natural dimensional form. Warm off-white seamless studio background, refined soft studio lighting and subtle natural shadow. Portrait 4:5 centered generous small margins. No person or other clothes. No text, brand, labels, logo, watermark."
+    },
+    {
+      "key": "sneakers",
+      "prompt": "Use case: product-mockup. Original e-commerce catalog photograph of a pair of clean chalk white leather low-top everyday men's sneakers with plain white laces and white rubber soles, simple understated unbranded design. Both shoes complete, one turned slightly three-quarter and the other alongside, showing recognizable matching pair. Warm off-white seamless studio backdrop matching refined internship wardrobe editorial, soft high-end ecommerce light and gentle natural shadows. Square composition, product fills 75 percent of frame, all shoe tips and heels visible. No people, legs, socks, trousers, boxes or props. No logos, brands, labels, text or watermark. Realistic premium photography."
+    }
+  ],
+  "files": [
+    {
+      "path": "public/assets/generated/city-loafer-espresso.png",
+      "sha256": "529b79d6d8a7f1732030a106b7fff9b6450f2971f412ce72d007eed1173e5e99",
+      "bytes": 2027717
+    },
+    {
+      "path": "public/assets/generated/everyday-oxford-warm-white.png",
+      "sha256": "20c7d6d7c84c935ab88a12e2539d8cfe8f72b8f3b2673afca62298d12597c2b8",
+      "bytes": 1935057
+    },
+    {
+      "path": "public/assets/generated/everyday-sneaker-chalk.png",
+      "sha256": "23230b13a1d24357627e050b9795dd71303d241fe5fffc32e81329beee844700",
+      "bytes": 1919674
+    },
+    {
+      "path": "public/assets/generated/firstfit-adult-model-oxford.png",
+      "sha256": "691787d9ef9913576e19552ed956e8767dd5b04dc7238502d2e37cb42c17e181",
+      "bytes": 1622999
+    },
+    {
+      "path": "public/assets/generated/signature-blazer-soft-olive.png",
+      "sha256": "4896d29bdb34b717a8a9d7f145baf7e915fdcbe812dd4df5b20b605d5439a142",
+      "bytes": 2493564
+    },
+    {
+      "path": "public/assets/generated/tailored-trouser-midnight.png",
+      "sha256": "6295003ec03099c3576b7a19f8e1b44bf1c5d512ffd6773f5bb13dde291bee01",
+      "bytes": 2064981
+    }
+  ]
+}

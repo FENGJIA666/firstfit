@@ -1,0 +1,17 @@
+**
+!package.json
+!package-lock.json
+!index.html
+!tsconfig.json
+!vite.config.ts
+!vercel.json
+!src/
+!src/**
+!server/
+!server/**
+!api/
+!api/**
+!public/
+!public/**
+!tests/
+!tests/**

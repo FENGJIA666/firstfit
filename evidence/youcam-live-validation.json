@@ -1,0 +1,41 @@
+{
+  "recordedAt": "2026-10-23T16:29:56.608Z",
+  "provider": "YouCam AI Clothes V4",
+  "route": "/s2s/v2.0/task/cloth-v4",
+  "verifiedUnitsPerResult": 2,
+  "origin": "Original image-generated fictional adult and concept garments",
+  "steps": [
+    {
+      "name": "meeting-ready",
+      "category": "shoes",
+      "source": "firstfit-adult-model-oxford.png",
+      "sourceSha256": "691787d9ef9913576e19552ed956e8767dd5b04dc7238502d2e37cb42c17e181",
+      "reference": "city-loafer-espresso.png",
+      "referenceSha256": "529b79d6d8a7f1732030a106b7fff9b6450f2971f412ce72d007eed1173e5e99",
+      "output": "youcam-meeting-ready.jpg",
+      "outputSha256": "3afbf9fed6523055f99a8483bee7fded80777ad11ef7c958014010ab01fb4a3d",
+      "bytes": 183710,
+      "taskFingerprint": "64762b9a993fe98ec173a2d697d525292f148039a80b1b730f19189e81726b8c",
+      "status": "success",
+      "elapsedMs": 15433,
+      "unitsAtPublishedCost": 2,
+      "provenance": "youcam-live"
+    },
+    {
+      "name": "first-impression",
+      "category": "outer",
+      "source": "youcam-meeting-ready.jpg",
+      "sourceSha256": "3afbf9fed6523055f99a8483bee7fded80777ad11ef7c958014010ab01fb4a3d",
+      "reference": "signature-blazer-soft-olive.png",
+      "referenceSha256": "4896d29bdb34b717a8a9d7f145baf7e915fdcbe812dd4df5b20b605d5439a142",
+      "output": "youcam-first-impression.jpg",
+      "outputSha256": "f843ee8e581235622817075958fc8ef0d80042dd164efbbae71d52dcb4c91ac7",
+      "bytes": 211192,
+      "taskFingerprint": "ebe01f7c747933d825d1a96c13193cf708f31db4a8998b6cf9d1f51d2cef9ddd",
+      "status": "success",
+      "elapsedMs": 18315,
+      "unitsAtPublishedCost": 2,
+      "provenance": "youcam-live"
+    }
+  ]
+}
