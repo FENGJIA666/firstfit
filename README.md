@@ -71,7 +71,7 @@ The Vite build serves the interface and `api/` exposes the same Express API as N
 
 Keep the production alias publicly accessible for judges. The dedicated Hobby project gives judges free access without an account or application request-count limit. No database, paid resource or subscription is required. The in-process local cap is deliberately disabled in this deployment; it is not a shared quota. Task receipts are encrypted, contain no photos, and expire after two hours. The browser retains personal source photos and saved previews for the current page session only.
 
-The public repository and deployment use explicit source allowlists. Credentials, account screenshots, internal review notes and video intermediates stay local.
+The public repository uses an explicit source allowlist (`scripts/public-source.py`); production is deployed from a clean clone of that published commit. Credentials, account screenshots, internal review notes and video intermediates stay local.
 
 ## Verify
 
