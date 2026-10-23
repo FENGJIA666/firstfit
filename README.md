@@ -26,7 +26,7 @@ YOUCAM_MAX_TASKS_PER_SESSION=10
 
 Keep `.env` private. It is excluded from Git. The browser never receives the key. The V2 workflow requires the API key; a separately issued secret key is not used by this implementation. Setting `YOUCAM_LIVE_ENABLED=false` keeps the personalized generation button inactive.
 
-Each successful V4 result costs API units. The authenticated feature-cost endpoint returned **2 units per result** during the October 24, 2026 check. The app does not purchase units. The local session cap bounds accepted generation attempts; restarting the local API resets that cap. The public deployment uses a Vercel firewall limit of three generation requests per IP per ten minutes. Event credits fund the public demo, and the app never purchases credits.
+Each successful V4 result costs API units. The authenticated feature-cost endpoint returned **2 units per result** during the October 24, 2026 check. The app does not purchase units. The local session cap bounds accepted generation attempts; restarting the local API resets that cap. Event credits fund the public demo, and the app never purchases credits. The public judging experience has no account requirement or application request-count limit.
 
 ## Explore the experience
 
@@ -69,7 +69,7 @@ Choose JPG/PNG originals up to 8 MB each, with a short side of at least 384 pixe
 
 The Vite build serves the interface and `api/` exposes the same Express API as Node functions. `vercel.json` pins the Vite preset; `package.json` selects Node 22. Set `YOUCAM_API_KEY` as a sensitive **production server environment variable**, and set `YOUCAM_LIVE_ENABLED=true`. Set `FIRSTFIT_PUBLIC_ORIGIN` to the canonical production URL when using a custom domain. Vercel system production/deployment URLs are recognized automatically.
 
-Keep the production alias publicly accessible for judges. On this dedicated Hobby project, one included WAF rule limits `POST /api/tryons` to three requests per IP per ten minutes. No database, paid resource or subscription is required. The in-process local cap is deliberately disabled in this deployment; it is not a shared quota. Task receipts are encrypted, contain no photos, and expire after two hours. The browser retains personal source photos and saved previews for the current page session only.
+Keep the production alias publicly accessible for judges. The dedicated Hobby project gives judges free access without an account or application request-count limit. No database, paid resource or subscription is required. The in-process local cap is deliberately disabled in this deployment; it is not a shared quota. Task receipts are encrypted, contain no photos, and expire after two hours. The browser retains personal source photos and saved previews for the current page session only.
 
 The public repository and deployment use explicit source allowlists. Credentials, account screenshots, internal review notes and video intermediates stay local.
 
