@@ -2,6 +2,8 @@
 
 **Make your first impression yours.**
 
+[Open the live demo](https://firstfit-seven.vercel.app) · [Source code](https://github.com/FENGJIA666/firstfit)
+
 FirstFit helps students build a first-work wardrobe around pieces they already own. Choose interview, workday and after-hours occasions; set a budget; explore a compact shopping plan; and see garments on a model through YouCam AI Clothes V4.
 
 ## Run locally
